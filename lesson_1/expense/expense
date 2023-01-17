@@ -131,15 +131,15 @@ class CLI
 
   def display_help
     puts <<~HELP
-    An expense recording system
+      An expense recording system
 
-    Commands:
+      Commands:
 
-    add AMOUNT MEMO - record a new expense
-    clear - delete all expenses
-    list - list all expenses
-    delete NUMBER - remove expenses with id NUMBER
-    search QUERY - list expenses with a matching memo field
+      add AMOUNT MEMO - record a new expense
+      clear - delete all expenses
+      list - list all expenses
+      delete NUMBER - remove expenses with id NUMBER
+      search QUERY - list expenses with a matching memo field
     HELP
   end
 end
